@@ -44,7 +44,7 @@ def lf_mapping(last):
 	
 
 if __name__ == "__main__":
-	alphafile=open('alpha.txt', 'r')
+	alphafile=open('config.txt', 'r')
 	alpha=alphafile.readline().rstrip().strip()
 	if len(sys.argv)<3: 
 		print 'Two arguments are required. Possible choices for argument 1: file, text. Argument 2: <filename> or <text_to_transform>'
