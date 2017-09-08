@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import sys
 																								
-def rank_last(last):
+def rank_last(last):				### create a list with ranked character for LF mapping
 	rank_dict = {}
 	ranked_last = []
 	for character in last:
@@ -17,13 +17,12 @@ def rank_last(last):
 	return ranked_last
 	
 	
-def lf_mapping(last):
+def lf_mapping(last):				### perform and extract LF mapping
 	ranked_last = rank_last(last)
 	ranked_first =[]
 	for element in alpha:
 		counter = 0
 		for character in last:
-
 			if element == character:
 				ranked_char = character+str(counter)
 				ranked_first.append(ranked_char)
@@ -76,8 +75,3 @@ if __name__ == "__main__":
 			print riga
 			decript = lf_mapping(riga)
 			print decript	
-			
-			
-			
-			
-			
