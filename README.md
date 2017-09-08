@@ -10,7 +10,7 @@ This code is not yet completely tested for bugs.
 
 The program requires arguments from command line:
 
-python bwt.py/lft.py file/text <input_file>/<text_to_transform>
+$ python bwt.py/lft.py file/text <input_file>/<text_to_transform>
 
 
 
