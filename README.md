@@ -1,4 +1,4 @@
-# Burrow-Wheeler-Transform
+# Burrows-Wheeler_Transform
 In this implementation I want to allow different kinds of transform by possibly modifying the alphabetical order.
 
 This modification of the method may represent a way to encrypt data. Obviously this is a basic implementation of the method, which is quite useless to encryption purposes. To reach this goal, further modifications will be applied.
