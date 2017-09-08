@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import sys
 															
-def bwt(l):
+def bwt(l):					### creates the matrix of strings and extract the transform 
 	matrix_list=[]
 	bwt_text=''
 	matrix_list.append(l)
@@ -18,7 +18,7 @@ def bwt(l):
 	bwt_text=bwt_text+bwt
 	return bwt_text
 	
-def matrix_sort(matrix, posizione):							### order the input matrix of strings considering the alphabet in config.txt file. Solves conflicts between first letters by recursively applying to the second one and so on.				
+def matrix_sort(matrix, posizione):		### order the input matrix of strings considering the alphabet in config.txt file. Solves conflicts between first letters by recursively applying to the second one and so on.				
 	sorted_matrix = []
 	for carattere in alpha:
 		temporary_matrix = []
