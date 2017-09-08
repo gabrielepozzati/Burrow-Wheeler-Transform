@@ -1,7 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import sys
-import random
 															
 def bwt(l):
 	matrix_list=[]
@@ -30,8 +29,7 @@ def matrix_sort(matrix, posizione):							### order the input matrix of strings 
 				sorted_matrix.append(sorted_element)
 		else: 
 			for sorted_element in temporary_matrix:
-				sorted_matrix.append(sorted_element)
-		
+				sorted_matrix.append(sorted_element)		
 	return sorted_matrix
 
 if __name__ == "__main__":
