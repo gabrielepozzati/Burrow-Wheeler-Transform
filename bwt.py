@@ -34,20 +34,6 @@ def matrix_sort(matrix, posizione):							###ordina a seconda della chiave la ma
 		
 	return sorted_matrix
 
-#def randomize(text):
-#	for character in text: 
-		
-
-def conversion(text):
-	list=['0','1','2','3','4','5','6','7','8','9']
-	dict={'0':'zero', '1':'one', '2':'two', '3':'three', '4':'four', '5':'five', '6':'six', '7':'seven', '8':'eight', '9':'nine'}
-	counter=0
-	for character in text:
-		if character in list: 
-			text=text[0:counter]+dict[character]+text[counter+1:]
-		counter=counter+1
-	return text
-
 if __name__ == "__main__":
 	alphafile=open('alpha.txt', 'r')
 	alpha=alphafile.readline().rstrip().strip()
