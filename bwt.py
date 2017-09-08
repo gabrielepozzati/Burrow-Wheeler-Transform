@@ -19,7 +19,7 @@ def bwt(l):
 	bwt_text=bwt_text+bwt
 	return bwt_text
 	
-def matrix_sort(matrix, posizione):							###ordina a seconda della chiave la matrice di stringhe in input, aumentando di 1 la posizione in caso di conflitti
+def matrix_sort(matrix, posizione):							### order the input matrix of strings considering the alphabet in config.txt file. Solves conflicts between first letters by recursively applying to the second one and so on.				
 	sorted_matrix = []
 	for carattere in alpha:
 		temporary_matrix = []
