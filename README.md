@@ -8,7 +8,7 @@ Subsequently, characters which are not present in config.txt should not be prese
 
 This code is not yet completely tested for bugs.
 
-The program requires arguments from command line:
+These programs require arguments from command line and the config.txt file to be present in the same folder:
 
 $ python bwt.py/lft.py file/text <input_file>/<text_to_transform>
 
